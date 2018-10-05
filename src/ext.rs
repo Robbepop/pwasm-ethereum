@@ -1,7 +1,6 @@
 //! Safe wrapper around externalities invokes.
 
-use hash::{H256, Address};
-use uint::U256;
+use ethereum_types::{U256, H256, Address};
 use pwasm_std;
 
 /// Generic wasm error
